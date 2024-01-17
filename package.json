@@ -1,0 +1,19 @@
+{
+  "name": "scraping",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/lkingl123/scraping",
+  "author": "Jake Loke <jake.loke@dialecticdevops.io>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "ts-node index.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.4",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "puppeteer": "^21.7.0"
+  }
+}
